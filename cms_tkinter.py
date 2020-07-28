@@ -40,7 +40,7 @@ class Customer:
         f = open("impo.pkl", "rb")
         Customer.cuslist = pickle.loads(f)
         f.close()
-
+Customer.loadfromPickle()
 
 
 #     def convtoDic(obj):
