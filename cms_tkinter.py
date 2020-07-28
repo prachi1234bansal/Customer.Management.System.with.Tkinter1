@@ -38,7 +38,7 @@ class Customer:
     @staticmethod
     def loadfromPickle():
         f = open("impo.pkl", "rb")
-        Customer.cuslist = pickle.loads(f)
+        Customer.cuslist = pickle.load(f)
         f.close()
 Customer.loadfromPickle()
 
